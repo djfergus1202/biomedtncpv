@@ -1,0 +1,21 @@
+{
+  "name": "biomed-research-suite-vercel",
+  "version": "3.0.0",
+  "description": "BioMed Research Suite API for Vercel Deployment",
+  "main": "api/index.js",
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "echo 'No build required'",
+    "deploy": "vercel --prod"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "vercel": "^32.0.0"
+  },
+  "engines": {
+    "node": "18.x"
+  }
+}
